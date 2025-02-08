@@ -1,0 +1,219 @@
+
+/* Navigation Bar */
+header {
+    background-color: #333;
+    padding: 1px;
+}
+.navbar :hover {
+    background-color:gainsboro;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+header .logo h1 {
+    color: #fff;
+    margin: 0;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    margin-right: 10px;
+    gap: 20px;
+}
+
+header ul li a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://via.placeholder.com/1920x700');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    padding: 15px 30px;
+    background-color: #FF5733;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #C0392B;
+}
+
+
+.destinations {
+    
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.destinations h2 {
+    
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.destination-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.destination-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    border: solid 2px;
+    border-color:white;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+}
+
+.destination-card img {
+    width: 100%;
+    border-color: aqua;
+    background-size: fixed;
+    height: auto;
+    border-radius: 8px;
+    padding-bottom: 3px;
+    
+}
+
+.destination-card h3 {
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 60px;
+    font-size: 1.5rem;
+   
+}
+
+
+
+.destination-card p {
+    font-size: 1rem;
+    margin-top: 10px;
+    color:white;
+}   
+.destination-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.destination-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    border: solid 2px;
+    border-color:white;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+    margin: 40px;
+
+}
+.destination-card img {
+    width: 100%;
+    border-color: aqua;
+    background-size: fixed;
+    height: auto;
+    border-radius: 8px;
+    padding-bottom: 3px;
+}
+
+.destination-card h3 {
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 60px;
+    font-size: 1.5rem;
+   
+}
+
+
+
+.destination-card p {
+    font-size: 1rem;
+    margin-top: 10px;
+    color:white;
+}   
+.destination-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.destination-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    border: solid 2px;
+    border-color:white;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+}
+
+.destination-card img {
+    width: 100%;
+    border-color: aqua;
+    background-size: fixed;
+    height: auto;
+    border-radius: 8px;
+    padding-bottom: 3px;
+}
+
+.destination-card h3 {
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 60px;
+    font-size: 1.5rem;
+   
+}
+.destinations {
+    
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.destinations h2 {
+    
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}

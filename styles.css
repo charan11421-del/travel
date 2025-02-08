@@ -1,0 +1,220 @@
+
+
+header .logo img {
+    list-style: none;
+    display: flex;
+    width: 20px; /* Adjust the logo size as needed */
+    height: auto;
+    margin-left: 15px;
+    margin-top: 10px;
+    gap: 20px;
+
+}
+#head1 {
+    margin-left: 40px;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* Navigation Bar */
+header {
+    background-color: #333;
+    padding: 1px;
+}
+.navbar :hover {
+    background-color:gainsboro;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+header .logo h1 {
+    color: #fff;
+    margin: 0;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    margin-right: 10px;
+    gap: 20px;
+}
+
+header ul li a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://via.placeholder.com/1920x700');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    padding: 15px 30px;
+    background-color: #FF5733;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #C0392B;
+}
+
+/* Destinations Section */
+.destinations {
+    
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.destinations h2 {
+    
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.destination-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.destination-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    border: solid 2px;
+    border-color:white;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+}
+
+.destination-card img {
+    width: 100%;
+    border-color: aqua;
+    background-size: fixed;
+    height: auto;
+    border-radius: 8px;
+    padding-bottom: 3px;
+}
+
+.destination-card h3 {
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 60px;
+    font-size: 1.5rem;
+   
+}
+
+
+
+.destination-card p {
+    font-size: 1rem;
+    margin-top: 10px;
+    color:white;
+}   
+
+/* Contact Section */
+.contact {
+    background-color:#fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.contact button {
+    padding: 12px;
+    background-color: #FF5733;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #C0392B;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
